@@ -1,0 +1,55 @@
+# H2O Internship Project - Log File Analysis
+###### By Jasmine Parekh 
+
+
+#### To Run Data Analysis
+
+- Open zip file (h2oPackage.zip)
+- To run the CLI, go to the terminal and change directory to h2oPackage
+```Linux
+cd /Users/jasmineparekh/Desktop/h2oPackage
+```
+
+- To install all the dependencies needed for the program to run successfully
+```Linux
+python setup.py develop
+```
+
+- Now, you can run the program using this command
+```Linux
+python run.py graph /Users/jasmineparekh/Downloads/h2oPackage/h2oai_server_anonymized.log
+```
+
+#### To Run Unit Tests
+
+-To run the unit test file (test_cli.py) make sure you are in the h2oPackage directory and then type the following command
+```Linux
+py.test
+```
+
+#### Quick Facts
+
+- Graphs will be saved in the same host folder after the program has finished running
+
+- Graphs produced on your screen are interactable. You can zoom and move around the graph to get a better view of things
+
+- Annotations are the vertical lines made over the graph. Their color or pattern can be used with the legend to find out what the annotation means
+
+
+#### Assumptions and Notices 
+
+- Wherever it says "Temporary directory", I took it to mean the start of a new experiment. Like the line below...
+```Log
+2018-11-09 18:17:51,485 C:   D:1.6TB M:951.3GB 26060 INFO   : Temporary directory: /opt/h2oai/dai/./tmp/h2oai_experiment_fikisinu
+```
+
+- Wherever it says "Experiment _____ FINISHED", I took it to mean the end of an experiment. Like the line below...
+```Log
+2018-11-10 03:49:06,157 C:   D:1017.0GB M:403.3GB 26060 INFO   : Experiment fikisinu FINISHED
+```
+
+- Sent an email about error annotations and I am awaiting a response on this so, I have not coded the error annotations into the program. I can easily do this after this submission if it is required. The logic is relatively simple, but there were two ways to group errors together therefore I was unable to complete this part of the task. 
+
+
+
+

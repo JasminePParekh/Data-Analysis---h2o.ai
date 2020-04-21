@@ -1,0 +1,7 @@
+README.md
+setup.py
+H2OLogFileAnalyzer.egg-info/PKG-INFO
+H2OLogFileAnalyzer.egg-info/SOURCES.txt
+H2OLogFileAnalyzer.egg-info/dependency_links.txt
+H2OLogFileAnalyzer.egg-info/requires.txt
+H2OLogFileAnalyzer.egg-info/top_level.txt
